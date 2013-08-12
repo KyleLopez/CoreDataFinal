@@ -18,6 +18,22 @@
 		8B8D3D171755787E00367051 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B8D3D161755787E00367051 /* Default-568h@2x.png */; };
 		8B8D3D1A1755787E00367051 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B8D3D181755787E00367051 /* MainStoryboard.storyboard */; };
 		8B8D3D1D1755787E00367051 /* KLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B8D3D1C1755787E00367051 /* KLViewController.m */; };
+		8B8D3D25175578A800367051 /* Developers.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8B8D3D23175578A800367051 /* Developers.xcdatamodeld */; };
+		8B8D3D28175578D800367051 /* Developer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B8D3D27175578D800367051 /* Developer.m */; };
+		8B8D3D2B17557A8700367051 /* KLCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B8D3D2A17557A8700367051 /* KLCell.m */; };
+		8B8D3D2E17557C4800367051 /* KLDeveloperData.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B8D3D2D17557C4800367051 /* KLDeveloperData.m */; };
+		8B8D3D3217557EDF00367051 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B8D3D3117557EDF00367051 /* Parse.framework */; };
+		8B8D3D3417557F0000367051 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B8D3D3317557F0000367051 /* AudioToolbox.framework */; };
+		8B8D3D3617557F0900367051 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B8D3D3517557F0900367051 /* CFNetwork.framework */; };
+		8B8D3D3E17557F5200367051 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B8D3D3717557F5100367051 /* CoreLocation.framework */; };
+		8B8D3D3F17557F5200367051 /* libz.1.1.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B8D3D3817557F5100367051 /* libz.1.1.3.dylib */; };
+		8B8D3D4017557F5200367051 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B8D3D3917557F5100367051 /* MobileCoreServices.framework */; };
+		8B8D3D4117557F5200367051 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B8D3D3A17557F5100367051 /* QuartzCore.framework */; };
+		8B8D3D4217557F5200367051 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B8D3D3B17557F5100367051 /* Security.framework */; };
+		8B8D3D4317557F5200367051 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B8D3D3C17557F5200367051 /* StoreKit.framework */; };
+		8B8D3D4417557F5200367051 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B8D3D3D17557F5200367051 /* SystemConfiguration.framework */; };
+		8B8D3D461755825B00367051 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B8D3D451755825B00367051 /* CoreData.framework */; };
+		8B92FC5C1755916C007B1CFC /* KLDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B92FC5B1755916C007B1CFC /* KLDetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +53,26 @@
 		8B8D3D191755787E00367051 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		8B8D3D1B1755787E00367051 /* KLViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KLViewController.h; sourceTree = "<group>"; };
 		8B8D3D1C1755787E00367051 /* KLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KLViewController.m; sourceTree = "<group>"; };
+		8B8D3D24175578A800367051 /* Developers.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Developers.xcdatamodel; sourceTree = "<group>"; };
+		8B8D3D26175578D800367051 /* Developer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Developer.h; sourceTree = "<group>"; };
+		8B8D3D27175578D800367051 /* Developer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Developer.m; sourceTree = "<group>"; };
+		8B8D3D2917557A8600367051 /* KLCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLCell.h; sourceTree = "<group>"; };
+		8B8D3D2A17557A8700367051 /* KLCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLCell.m; sourceTree = "<group>"; };
+		8B8D3D2C17557C4700367051 /* KLDeveloperData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLDeveloperData.h; sourceTree = "<group>"; };
+		8B8D3D2D17557C4800367051 /* KLDeveloperData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLDeveloperData.m; sourceTree = "<group>"; };
+		8B8D3D3117557EDF00367051 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		8B8D3D3317557F0000367051 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		8B8D3D3517557F0900367051 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		8B8D3D3717557F5100367051 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		8B8D3D3817557F5100367051 /* libz.1.1.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.1.3.dylib; path = usr/lib/libz.1.1.3.dylib; sourceTree = SDKROOT; };
+		8B8D3D3917557F5100367051 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		8B8D3D3A17557F5100367051 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		8B8D3D3B17557F5100367051 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		8B8D3D3C17557F5200367051 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		8B8D3D3D17557F5200367051 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		8B8D3D451755825B00367051 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		8B92FC5A1755916C007B1CFC /* KLDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLDetailViewController.h; sourceTree = "<group>"; };
+		8B92FC5B1755916C007B1CFC /* KLDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLDetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,9 +80,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B8D3D461755825B00367051 /* CoreData.framework in Frameworks */,
+				8B8D3D3E17557F5200367051 /* CoreLocation.framework in Frameworks */,
+				8B8D3D3F17557F5200367051 /* libz.1.1.3.dylib in Frameworks */,
+				8B8D3D4017557F5200367051 /* MobileCoreServices.framework in Frameworks */,
+				8B8D3D4117557F5200367051 /* QuartzCore.framework in Frameworks */,
+				8B8D3D4217557F5200367051 /* Security.framework in Frameworks */,
+				8B8D3D4317557F5200367051 /* StoreKit.framework in Frameworks */,
+				8B8D3D4417557F5200367051 /* SystemConfiguration.framework in Frameworks */,
+				8B8D3D051755787E00367051 /* CoreGraphics.framework in Frameworks */,
+				8B8D3D3617557F0900367051 /* CFNetwork.framework in Frameworks */,
+				8B8D3D3417557F0000367051 /* AudioToolbox.framework in Frameworks */,
 				8B8D3D011755787E00367051 /* UIKit.framework in Frameworks */,
 				8B8D3D031755787E00367051 /* Foundation.framework in Frameworks */,
-				8B8D3D051755787E00367051 /* CoreGraphics.framework in Frameworks */,
+				8B8D3D3217557EDF00367051 /* Parse.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,6 +120,17 @@
 		8B8D3CFF1755787E00367051 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8B8D3D451755825B00367051 /* CoreData.framework */,
+				8B8D3D3717557F5100367051 /* CoreLocation.framework */,
+				8B8D3D3817557F5100367051 /* libz.1.1.3.dylib */,
+				8B8D3D3917557F5100367051 /* MobileCoreServices.framework */,
+				8B8D3D3A17557F5100367051 /* QuartzCore.framework */,
+				8B8D3D3B17557F5100367051 /* Security.framework */,
+				8B8D3D3C17557F5200367051 /* StoreKit.framework */,
+				8B8D3D3D17557F5200367051 /* SystemConfiguration.framework */,
+				8B8D3D3517557F0900367051 /* CFNetwork.framework */,
+				8B8D3D3317557F0000367051 /* AudioToolbox.framework */,
+				8B8D3D3117557EDF00367051 /* Parse.framework */,
 				8B8D3D001755787E00367051 /* UIKit.framework */,
 				8B8D3D021755787E00367051 /* Foundation.framework */,
 				8B8D3D041755787E00367051 /* CoreGraphics.framework */,
@@ -88,6 +146,12 @@
 				8B8D3D181755787E00367051 /* MainStoryboard.storyboard */,
 				8B8D3D1B1755787E00367051 /* KLViewController.h */,
 				8B8D3D1C1755787E00367051 /* KLViewController.m */,
+				8B92FC5A1755916C007B1CFC /* KLDetailViewController.h */,
+				8B92FC5B1755916C007B1CFC /* KLDetailViewController.m */,
+				8B8D3D2917557A8600367051 /* KLCell.h */,
+				8B8D3D2A17557A8700367051 /* KLCell.m */,
+				8B8D3D2C17557C4700367051 /* KLDeveloperData.h */,
+				8B8D3D2D17557C4800367051 /* KLDeveloperData.m */,
 				8B8D3D071755787E00367051 /* Supporting Files */,
 			);
 			path = "204-THFinal-KLopez";
@@ -103,6 +167,9 @@
 				8B8D3D121755787E00367051 /* Default.png */,
 				8B8D3D141755787E00367051 /* Default@2x.png */,
 				8B8D3D161755787E00367051 /* Default-568h@2x.png */,
+				8B8D3D23175578A800367051 /* Developers.xcdatamodeld */,
+				8B8D3D26175578D800367051 /* Developer.h */,
+				8B8D3D27175578D800367051 /* Developer.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -177,6 +244,11 @@
 				8B8D3D0D1755787E00367051 /* main.m in Sources */,
 				8B8D3D111755787E00367051 /* KLAppDelegate.m in Sources */,
 				8B8D3D1D1755787E00367051 /* KLViewController.m in Sources */,
+				8B8D3D25175578A800367051 /* Developers.xcdatamodeld in Sources */,
+				8B8D3D28175578D800367051 /* Developer.m in Sources */,
+				8B8D3D2B17557A8700367051 /* KLCell.m in Sources */,
+				8B8D3D2E17557C4800367051 /* KLDeveloperData.m in Sources */,
+				8B92FC5C1755916C007B1CFC /* KLDetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +333,11 @@
 		8B8D3D211755787E00367051 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../Downloads\"",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "204-THFinal-KLopez/204-THFinal-KLopez-Prefix.pch";
 				INFOPLIST_FILE = "204-THFinal-KLopez/204-THFinal-KLopez-Info.plist";
@@ -272,6 +349,11 @@
 		8B8D3D221755787E00367051 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../Downloads\"",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "204-THFinal-KLopez/204-THFinal-KLopez-Prefix.pch";
 				INFOPLIST_FILE = "204-THFinal-KLopez/204-THFinal-KLopez-Info.plist";
@@ -299,8 +381,22 @@
 				8B8D3D221755787E00367051 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8B8D3D23175578A800367051 /* Developers.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8B8D3D24175578A800367051 /* Developers.xcdatamodel */,
+			);
+			currentVersion = 8B8D3D24175578A800367051 /* Developers.xcdatamodel */;
+			path = Developers.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 8B8D3CF51755787E00367051 /* Project object */;
 }

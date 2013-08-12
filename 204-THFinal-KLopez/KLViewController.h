@@ -8,6 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-@interface KLViewController : UIViewController
+@class Developer;
+
+@interface KLViewController : UIViewController <UITableViewDelegate>
+
+@property (nonatomic,strong) IBOutlet UITableView *table;
+@property (nonatomic,strong) Developer *returnedDeveloper;
 
 @end
